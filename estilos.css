@@ -1,11 +1,49 @@
-body{margin: auto;
-    background-color: lightgray;
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Isometra&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body {
+    margin: 0;
+    background-color: rgb(211, 211, 211);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #222;
 }
-h1{color: crimson;
 
+h1 {
+    color: rgb(20, 183, 220);
+    font-size: 3em;
 }
-header{padding: 40px;
-text-align: center;}
-main{padding: 30px;
-    text-align: center;}
-    
+
+h2{
+    font-size: 1.5rem;
+    {font-weight: bold;
+    }
+}
+
+p{
+    line-height: 1.5;
+}
+
+header p{
+    font-size: 1.1rem;
+}
+
+header{
+    padding: 40px;
+    text-align: center;
+    background-color: #222;
+    color: ghostwhite;
+}
+
+main{
+    padding: 30px;
+    margin: auto;
+}
+
+section{
+    background-color: rgb(253, 255, 248);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+}
